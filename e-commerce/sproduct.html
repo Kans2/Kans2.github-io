@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins' sans-serif;
+}
+.nav-link
+{
+    font-size:1.3rem!important;
+    color:black!important;
+}
+.nav-link active
+{
+  color: red !important;
+}
+.nav-link:hover
+{
+    color:rgb(228, 85, 85)!important;
+}
+.nav-link i
+{
+    cursor:pointer;
+}
+.navbar
+{
+    width:100%;
+    position:sticky!important;
+    left:0;
+    top:0;
+    z-index: 10;
+    overflow:hidden!important;
+
+}
+hr
+{
+    width:30px;
+    height:2px;
+    background-color:goldenrod;
+}
+.nav-item
+{
+    padding:0px 10px;
+}
+nav
+{
+    background-color:#e5e5e5;
+    box-shadow:5px 10px 20px rgba(0,0,0,.5);
+}
+.nav-bar
+{
+    position: sticky !important;
+    left:0;
+    top:0;
+    z-index:-1
+
+}
+
+.small-imggroup
+{
+    display:flex;
+    justify-content: space-between;
+}
+.small-imggroup img:hover
+{
+    border:2px solid black;
+    transition:0.5s;
+}
+.small-img-col
+{
+    flex-basis:20%;
+    cursor: pointer;
+}
+
+footer
+{
+    background-color: #222222;
+}
+footer h6
+{
+    color:white;
+}
+footer h2
+{
+    font-size:1.5rem;
+    color:white;
+}
+footer p
+{
+color:#999;
+}
+footer h3
+{
+    color:white;
+    font-size:1.5rem;
+}
+footer ul
+{
+    list-style:none;
+}
+footer ul a
+{
+    text-decoration:none;
+    text-transform: uppercase;
+    color:#999;
+}
+footer .insta img
+{
+    width:30%;
+}
+.copyright .social a
+{
+    display: inline-block;
+    padding:0px 20px;
+}
+.card
+{
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+</style>
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="logo1.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="shop.html">shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"><i class="fa fa-search" aria-hidden="true"></i></a> 
+              </li>
+              <li class="nav-item">
+               <a class="nav-link"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+              </li>
+             
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+
+      <br>
+      <br>
+
+<section id="sproduct" class="pt-3 py-5">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+            <div class="card">
+                <img src="C:\Users\kannan\Desktop\e-commerce\shop\1.jpg" style="width:400px;" id="MainImg">
+            <div class="card-text">
+                <h5>color:blue</h5>
+            </div>
+
+            </div>
+            <div class="small-imggroup mt-2">
+                    <div class="small-img-col">
+                        <img  src="C:\Users\kannan\Desktop\e-commerce\shop\1.jpg"  width="100%"  class="smallimg">
+                    </div>
+                    <div class="small-img-col">
+                        <img  src="C:\Users\kannan\Desktop\e-commerce\shop\24.jpg"  width="100%"  class="smallimg">
+                    </div>
+                    <div class="small-img-col">
+                        <img  src="C:\Users\kannan\Desktop\e-commerce\shop\25.jpg"  width="100%"  class="smallimg">
+                    </div>
+                    <div class="small-img-col">
+                        <img  src="C:\Users\kannan\Desktop\e-commerce\shop\26.jpg"  width="100%"  class="smallimg">
+                    </div>
+
+                    
+                </div>
+
+            </div>
+               
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+               <img class="img-fluid" src="C:\Users\kannan\Desktop\e-commerce\shop\21.jpg" style="width:400px; display:none;">
+        </div>
+
+    </div>
+
+</section>
+
+<section id="multiple">
+  <h1>our <span>related</span></h1>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-6">
+        <div  class="card">
+          <a href="#"><img  src="C:\Users\kannan\Desktop\e-commerce\shop\8.jpg" class="card-img-top"></a>
+          <div class="card-text">
+                   <h6 class="text-center">t-shirt</h6>
+                   <i><fa fa-fa-star aria="true aria-hidden"></i>
+                    <h6 class="text-center">$100.2</h6>
+                  <center><button class="btn btn-sucees">shop</button></center>  
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\7.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">shoes</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\6.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">handbag</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\5.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">shoes</h6>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-6">
+        <div  class="card">
+          <a href="#"><img  src="C:\Users\kannan\Desktop\e-commerce\shop\12.jpg" class="card-img-top"></a>
+          <div class="card-text">
+                   <h6 class="text-center">t-shirt</h6>
+                   <i><fa fa-fa-star aria="true aria-hidden"></i>
+                    <h6 class="text-center">$100.2</h6>
+                  <center><button class="btn btn-sucees">shop</button></center>  
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\11.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">shoes</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\10.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">handbag</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\9.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">shoes</h6>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-6">
+        <div  class="card">
+          <a href="#"><img  src="C:\Users\kannan\Desktop\e-commerce\shop\8.jpg" class="card-img-top"></a>
+          <div class="card-text">
+                   <h6 class="text-center">t-shirt</h6>
+                   <i><fa fa-fa-star aria="true aria-hidden"></i>
+                    <h6 class="text-center">$100.2</h6>
+                  <center><button class="btn btn-sucees">shop</button></center>  
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\15.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">shoes</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\14.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">handbag</h6>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="card">
+          <img src="C:\Users\kannan\Desktop\e-commerce\shop\13.jpg" class="card-img-top">
+          <div class="card-text">
+                   <h6 class="text-center">shoes</h6>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+</section>  
+  
+
+        <footer class="mt-3 py-3" >
+            <div class="row container mx-auto ">
+              <div class="footer-one col-lg-3 col-md-6 col-12 mt-4 mb-3">
+                <img src="logo2.png" style="cursor: pointer;">          
+             </div>
+             <div class="footer-one col-lg-3 col-md-6 col-12 m">
+              <h2>featured</h2>
+              <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>         
+           </div>
+           <div class="footer-one col-lg-3 col-md-6 col-12">
+            <div class="address">
+              <h3>Address</h3>
+              <p>23,Gandhi Street<br>Mumbai 28</p>
+            </div> 
+            <div class="phone">
+              <h3>Contact</h3>
+              <p>+234566887890,+913793444978<br>land</p>
+            </div>
+         </div>
+         <div class="footer-one col-lg-3 col-md-6 col-12">
+           <h3>instragram</h3>
+          <div class="insta">
+            <img src="insta/1.jpg">
+            <img src="insta/2.jpg">
+            <img src="insta/3.jpg">
+            <img src="insta/4.jpg">
+            <img src="insta/5.jpg">
+            
+          </div>
+                  
+       </div>
+            </div>
+    
+      <div class="copyright mt-5">
+        <div class="row container mx-auto px-5">
+          <div class="footer-te col-lg-4 col-md-6 col-6">
+            <div>
+              <img src="payment.png">
+            </div>
+          </div>
+        <div class="footer-te col-lg-4 col-md-6 col-6">
+          <div class="copy">
+            <h6>rymo@ 2004 All rights reesrved.</h6>
+          </div>
+        </div>
+        <div class="footer-te col-lg-4 col-md-6 col-12">
+          <div class="social">
+           <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+           <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+           <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+          </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script>
+
+          var MainImg=document.getElementById('MainImg');
+          var  smallimg=document.getElementsByClassName('smallimg');
+
+          smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src;
+          }
+    
+          smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src;
+          }
+
+          smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src;
+          }
+          smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src;
+          }
+
+</script>
+
+
+
+</body>
+</html>
