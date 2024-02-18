@@ -163,6 +163,7 @@ span
 .card
 {
     margin-bottom:2rem;
+    box-shadow:20px 20px 20px rgba(0,0,0,.5);
 }
 .card img
 {
@@ -213,4 +214,9 @@ footer .insta img
 {
     display: inline-block;
     padding:0px 20px;
+}
+.card-text .btn
+{
+    background-color:rgba(253, 174, 27, 0.932);
+    color:white;
 }
